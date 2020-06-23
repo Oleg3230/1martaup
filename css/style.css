@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  min-height: 793px;
+  background-size: cover;
+  background-position: top center;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+    padding-left: 15px;
+  padding-right: 15px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list li+li {
+  padding-left: 50px;
+  
+}
+
+.login{
+  text-transform: uppercase;
+  padding-right: 44px;
+ color: #ffffff;
+ font-weight: 600;
+}
+.menu__list a {
+opacity: 0.5;
+color: #fff;
+font-weight: 600;
+text-transform: uppercase;
+transition: .5s;
+}
+.menu__list a:hover{
+  opacity: 1;
+}
+.sign-up{
+text-transform: uppercase;
+color: #250F8A;
+font-weight: 600;
+background-color: #fff;
+line-height: 24px;
+padding: 8px 43px;
+border-radius: 20px;
+}
+.header-slider {
+  padding-top: 111px;
+}
+.header-slider__item {
+}
+.header-slider__item-content {
+  display: flex;
+  justify-content: space-between
+}
+.header-slider__item-info {
+  max-width: 506px;
+  color: #ffffff;
+}
+.header-slider__title {
+  font-weight: 700;
+  font-size: 45px;
+line-height: 60px;
+margin-bottom: 10px;
+
+}
+.header-slider__description {
+  font-size: 24px;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.header-slider__btn {
+  padding: 13px 39px;
+  border-radius:25px;
+  background: #FFCA00;
+  text-transform: uppercase;
+  font-weight: 600;
+color: #250F8A;
+
+}
+.header-slider__item-images {
+  margin: 10px 82px 0 0;
+}
+.header-dots{
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.header-dots button{
+  border: none;
+  background-color:#fff;
+  opacity: 0.5;
+  font-size: 0;
+  padding: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px auto;
+  display: block;
+  }
+  .header-dots .slick-active button{
+    width: 15px;
+    opacity: 1;
+  }
