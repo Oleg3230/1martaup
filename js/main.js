@@ -4,7 +4,10 @@ $(function () {
     vertical: true,
     dots: true,
     dotsClass: 'header-dots',
-    autoplay: 1000,
-  })
+    autoplay: 2000,
+  });
 
+  $('.menu__btn').on('click', function () {
+    $('.menu__list').slideToggle();
+  });
 });
